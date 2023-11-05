@@ -29,6 +29,7 @@ clock=pygame.time.Clock()
 screen_width=865
 screen_height=455
 screen=pygame.display.set_mode((screen_width,screen_height))
+pygame.display.set_caption("jitendra ka beta game banayega")
 background=pygame.image.load("bg.png")
 pygame.mouse.set_visible(False)
 
